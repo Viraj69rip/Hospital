@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Baramati Signature Hospital — Premium multispeciality hospital in Baramati, Maharashtra. 24/7 emergency care, specialist consultations, WhatsApp booking.">
+  <title>Baramati Signature Hospital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true">
+    <div class="blob blob--1"></div>
+    <div class="blob blob--2"></div>
+    <div class="blob blob--3"></div>
+  </div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="scroll-progress"><div class="scroll-progress__bar"></div></div>
+
+  <!-- TOPBAR -->
+  <div class="topbar" id="topbar">
+    <div class="topbar__inner">
+      <a class="topbar__item" href="tel:+919307815563">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .33h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 15.92z"/></svg>
+        +91 9307815563
+      </a>
+      <span class="topbar__sep" aria-hidden="true">|</span>
+      <span class="topbar__item">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Baramati, Maharashtra
+      </span>
+      <span class="topbar__sep" aria-hidden="true">|</span>
+      <span class="topbar__item topbar__status">
+        <span class="pulse-dot" aria-hidden="true"></span>
+        24/7 Emergency Care
+      </span>
+      <a class="topbar__wa" href="https://wa.me/919307815563?text=Hello%20Baramati%20Signature%20Hospital%2C%20I%20want%20to%20book%20an%20appointment." target="_blank" rel="noreferrer">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        Book on WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a class="brand" href="#home" aria-label="Baramati Signature Hospital">
+        <div class="brand__icon" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 28 28" fill="none"><rect width="28" height="28" rx="8" fill="url(#bg)"/><path d="M14 7v14M7 14h14" stroke="white" stroke-width="2.5" stroke-linecap="round"/><defs><linearGradient id="bg" x1="0" y1="0" x2="28" y2="28"><stop stop-color="#083f3b"/><stop offset="1" stop-color="#0d7a72"/></linearGradient></defs></svg>
+        </div>
+        <div class="brand__text">
+          <strong>Baramati Signature</strong>
+          <small>Multispeciality Hospital</small>
+        </div>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#about">About</a>
+        <a href="#services">Specialties</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#booking">Book</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn--nav" href="https://wa.me/919307815563?text=Hello%20Baramati%20Signature%20Hospital%2C%20I%20want%20to%20book%20an%20appointment." target="_blank" rel="noreferrer">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          Book Now
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <div class="eyebrow" id="heroEyebrow">
+          <span class="eyebrow__line"></span>Premium Care · Baramati
+        </div>
+        <h1 class="hero__title" id="heroTitle">
+          Advanced<br><em>multispeciality</em><br>care in Baramati
+        </h1>
+        <p class="hero__lead" id="heroLead">
+          From emergency response to specialist consultations — precision medicine with a WhatsApp-first booking experience designed for Baramati families.
+        </p>
+        <div class="hero__actions" id="heroActions">
+          <a class="btn btn--primary btn--lg" href="#booking">Book Appointment</a>
+          <a class="btn btn--ghost btn--lg" href="https://wa.me/919307815563?text=Hello%20Baramati%20Signature%20Hospital" target="_blank" rel="noreferrer">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            Chat on WhatsApp
+          </a>
+        </div>
+        <div class="hero__stats" id="heroStats">
+          <div class="stat">
+            <strong class="stat__num" data-counter="18">0</strong>
+            <span>Senior Specialists</span>
+          </div>
+          <div class="stat__div"></div>
+          <div class="stat">
+            <strong class="stat__num" data-counter="24">0</strong>
+            <span>Hour Emergency</span>
+          </div>
+          <div class="stat__div"></div>
+          <div class="stat">
+            <strong class="stat__num" data-counter="96">0</strong>
+            <span>Patient Satisfaction</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__media" id="heroMedia">
+        <div class="hero__img-frame">
+          <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=900&auto=format&fit=crop&q=80" alt="Modern hospital interior at Baramati Signature" class="hero__img" loading="eager" onerror="this.style.display='none'" crossorigin="anonymous"/>
+          <div class="hero__img-tint" aria-hidden="true"></div>
+        </div>
+        <div class="float-card float-card--a" id="floatA">
+          <div class="float-card__dot float-card__dot--green" aria-hidden="true"></div>
+          <div>
+            <strong>Appointment Confirmed</strong>
+            <span>Via WhatsApp instantly</span>
+          </div>
+        </div>
+        <div class="float-card float-card--b" id="floatB">
+          <div class="float-card__dot float-card__dot--red" aria-hidden="true"></div>
+          <div>
+            <strong>Emergency Response</strong>
+            <span>Under 10 min triage</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Emergency Medicine</span><span class="tick-sep">✦</span>
+        <span>Intensive Care</span><span class="tick-sep">✦</span>
+        <span>Digital Diagnostics</span><span class="tick-sep">✦</span>
+        <span>Maternity Care</span><span class="tick-sep">✦</span>
+        <span>Orthopaedics</span><span class="tick-sep">✦</span>
+        <span>Cardiology</span><span class="tick-sep">✦</span>
+        <span>Preventive Health</span><span class="tick-sep">✦</span>
+        <span>WhatsApp Booking</span><span class="tick-sep">✦</span>
+        <span>Emergency Medicine</span><span class="tick-sep">✦</span>
+        <span>Intensive Care</span><span class="tick-sep">✦</span>
+        <span>Digital Diagnostics</span><span class="tick-sep">✦</span>
+        <span>Maternity Care</span><span class="tick-sep">✦</span>
+        <span>Orthopaedics</span><span class="tick-sep">✦</span>
+        <span>Cardiology</span><span class="tick-sep">✦</span>
+        <span>Preventive Health</span><span class="tick-sep">✦</span>
+        <span>WhatsApp Booking</span><span class="tick-sep">✦</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-tag">Why Choose Us</span>
+        <h2>Hospital care that feels calm,<br>premium &amp; dependable</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-visual" data-animate="reveal-left">
+          <img src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=800&auto=format&fit=crop&q=80" alt="Modern hospital reception" loading="lazy" onerror="this.style.display='none'" crossorigin="anonymous"/>
+          <div class="about-badge">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <div><strong>NABH Accredited</strong><span>Quality Standard</span></div>
+          </div>
+        </div>
+        <div class="about-cards">
+          <div class="about-card" data-animate>
+            <span class="about-card__n">01</span>
+            <h3>Patient-first arrival flow</h3>
+            <p>Fast check-in, guided triage, specialist routing, and priority emergency response with minimal waiting friction for every patient.</p>
+          </div>
+          <div class="about-card" data-animate data-delay="120">
+            <span class="about-card__n">02</span>
+            <h3>Comfort-forward spaces</h3>
+            <p>Private recovery rooms, cleaner circulation, and reassuring interiors shaped for patients and families to feel at ease.</p>
+          </div>
+          <div class="about-card" data-animate data-delay="240">
+            <span class="about-card__n">03</span>
+            <h3>Digital communication</h3>
+            <p>Appointments coordinated on WhatsApp so Baramati patients can book faster and arrive with complete clarity and confidence.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section section--dark" id="services">
+    <div class="container">
+      <div class="section-header section-header--light" data-animate>
+        <span class="section-tag">Centers of Excellence</span>
+        <h2>Core specialties for serious care &amp; fast access</h2>
+      </div>
+      <div class="services-grid">
+        <article class="service-card" data-animate>
+          <div class="service-card__img"><img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=500&auto=format&fit=crop&q=80" alt="Emergency care" loading="lazy" onerror="this.style.display='none'" crossorigin="anonymous"/></div>
+          <div class="service-card__body">
+            <div class="service-card__ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2v20M2 12h20"/></svg></div>
+            <h3>Emergency &amp; Trauma</h3>
+            <p>24/7 response with advanced imaging, stabilization, and immediate specialist escalation for all urgent cases.</p>
+          </div>
+        </article>
+        <article class="service-card" data-animate data-delay="80">
+          <div class="service-card__img"><img src="https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=500&auto=format&fit=crop&q=80" alt="Cardiology" loading="lazy" onerror="this.style.display='none'" crossorigin="anonymous"/></div>
+          <div class="service-card__body">
+            <div class="service-card__ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg></div>
+            <h3>Cardiology</h3>
+            <p>Heart checkups, preventive screening, rhythm evaluation, and monitored cardiovascular support.</p>
+          </div>
+        </article>
+        <article class="service-card" data-animate data-delay="160">
+          <div class="service-card__img"><img src="https://images.unsplash.com/photo-1598128558393-70ff21433be0?w=500&auto=format&fit=crop&q=80" alt="Orthopaedics" loading="lazy" onerror="this.style.display='none'" crossorigin="anonymous"/></div>
+          <div class="service-card__body">
+            <div class="service-card__ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 3a3 3 0 00-3 3v12a3 3 0 003 3 3 3 0 003-3 3 3 0 00-3-3H6a3 3 0 00-3 3 3 3 0 003 3 3 3 0 003-3V6a3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3h12a3 3 0 003-3 3 3 0 00-3-3z"/></svg></div>
+            <h3>Orthopaedics</h3>
+            <p>Joint care, fracture management, pain relief planning, and comprehensive rehabilitation support.</p>
+          </div>
+        </article>
+        <article class="service-card service-card--mobile-hide" data-animate data-delay="240">
+          <div class="service-card__img"><img src="https://images.unsplash.com/photo-1584515933487-779824d29309?w=500&auto=format&fit=crop&q=80" alt="Maternity care" loading="lazy" onerror="this.style.display='none'" crossorigin="anonymous"/></div>
+          <div class="service-card__body">
+            <div class="service-card__ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg></div>
+            <h3>Maternity &amp; Neonatal</h3>
+            <p>Safer mother-and-child care with prenatal guidance, delivery support, and post-delivery monitoring.</p>
+          </div>
+        </article>
+        <article class="service-card service-card--mobile-hide" data-animate data-delay="320">
+          <div class="service-card__img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&auto=format&fit=crop&q=80" alt="Diagnostics" loading="lazy" onerror="this.style.display='none'" crossorigin="anonymous"/></div>
+          <div class="service-card__body">
+            <div class="service-card__ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 12h8M12 8v8"/></svg></div>
+            <h3>Diagnostics</h3>
+            <p>Integrated lab and imaging — CT, MRI, lab tests — with fast digital reporting to reduce delays.</p>
+          </div>
+        </article>
+        <article class="service-card service-card--mobile-hide" data-animate data-delay="400">
+          <div class="service-card__img"><img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=500&auto=format&fit=crop&q=80" alt="Preventive health" loading="lazy" onerror="this.style.display='none'" crossorigin="anonymous"/></div>
+          <div class="service-card__body">
+            <div class="service-card__ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h3>Preventive Health</h3>
+            <p>Executive health packages and annual screenings tailored for families and professionals.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNEY -->
+  <section class="section" id="journey">
+    <div class="container">
+      <div class="journey-wrap">
+        <div class="journey-content" data-animate>
+          <span class="section-tag">Patient Journey</span>
+          <h2>Every step guided,<br>from first contact to recovery</h2>
+          <p class="journey-intro">One WhatsApp message starts a seamless experience — from booking to consultation, diagnosis, and follow-up care.</p>
+          <ol class="journey-steps">
+            <li data-animate>
+              <span class="j-num">01</span>
+              <div><h4>Send a WhatsApp message</h4><p>Share your name, department, preferred date and concern to 9307815563.</p></div>
+            </li>
+            <li data-animate data-delay="100">
+              <span class="j-num">02</span>
+              <div><h4>Receive appointment confirmation</h4><p>Our team confirms your slot, assigns a department, and sends directions.</p></div>
+            </li>
+            <li data-animate data-delay="200">
+              <span class="j-num">03</span>
+              <div><h4>Arrive at Baramati Signature</h4><p>Fast-tracked reception, triage, and specialist consultation await you.</p></div>
+            </li>
+            <li data-animate data-delay="300">
+              <span class="j-num">04</span>
+              <div><h4>Diagnosis &amp; follow-up care</h4><p>Reports, prescriptions, and follow-up support — all via WhatsApp.</p></div>
+            </li>
+          </ol>
+        </div>
+        <div class="journey-visual" data-animate="reveal-right">
+          <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=700&auto=format&fit=crop&q=80" alt="Doctor consulting patient" loading="lazy" onerror="this.style.display='none'" crossorigin="anonymous"/>
+          <div class="journey-badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <div><strong>NABH Accredited</strong><span>Quality Certified</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOCTORS -->
+  <section class="section section--tint" id="doctors">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-tag">Care Leadership</span>
+        <h2>Consultants for critical,<br>chronic &amp; preventive care</h2>
+      </div>
+      <div class="doctors-grid">
+        <article class="doctor-card" data-animate data-tilt>
+          <div class="doctor-card__img">
+            <div class="doctor-avatar" aria-hidden="true">
+              <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="38" r="24" fill="rgba(255,255,255,0.18)"/><path d="M10 110 C10 82 90 82 90 110" fill="rgba(255,255,255,0.12)"/></svg>
+            </div>
+            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&auto=format&fit=crop&q=80" alt="Dr. R. Kulkarni" loading="lazy" onerror="this.style.display='none'" crossorigin="anonymous"/>
+            <div class="doctor-card__hover">
+              <a href="https://wa.me/919307815563?text=I%20want%20to%20consult%20Dr.%20Kulkarni%20(Cardiology)" target="_blank" rel="noreferrer" class="btn btn--white btn--sm">Book Consultation</a>
+            </div>
+          </div>
+          <div class="doctor-card__info">
+            <h3>Dr. R. Kulkarni</h3>
+            <p>Consultant Cardiologist</p>
+            <span>Preventive heart care and emergency cardiovascular response.</span>
+          </div>
+        </article>
+        <article class="doctor-card" data-animate data-delay="120" data-tilt>
+          <div class="doctor-card__img">
+            <div class="doctor-avatar" aria-hidden="true">
+              <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="38" r="24" fill="rgba(255,255,255,0.18)"/><path d="M10 110 C10 82 90 82 90 110" fill="rgba(255,255,255,0.12)"/></svg>
+            </div>
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&auto=format&fit=crop&q=80" alt="Dr. A. Patil" loading="lazy" onerror="this.style.display='none'" crossorigin="anonymous"/>
+            <div class="doctor-card__hover">
+              <a href="https://wa.me/919307815563?text=I%20want%20to%20consult%20Dr.%20Patil%20(Orthopaedics)" target="_blank" rel="noreferrer" class="btn btn--white btn--sm">Book Consultation</a>
+            </div>
+          </div>
+          <div class="doctor-card__info">
+            <h3>Dr. A. Patil</h3>
+            <p>Orthopaedic Surgeon</p>
+            <span>Joint pain, trauma management, and recovery planning.</span>
+          </div>
+        </article>
+        <article class="doctor-card" data-animate data-delay="240" data-tilt>
+          <div class="doctor-card__img">
+            <div class="doctor-avatar" aria-hidden="true">
+              <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="38" r="24" fill="rgba(255,255,255,0.18)"/><path d="M10 110 C10 82 90 82 90 110" fill="rgba(255,255,255,0.12)"/></svg>
+            </div>
+            <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&auto=format&fit=crop&q=80" alt="Dr. S. Deshmukh" loading="lazy" onerror="this.style.display='none'" crossorigin="anonymous"/>
+            <div class="doctor-card__hover">
+              <a href="https://wa.me/919307815563?text=I%20want%20to%20consult%20Dr.%20Deshmukh%20(Maternity)" target="_blank" rel="noreferrer" class="btn btn--white btn--sm">Book Consultation</a>
+            </div>
+          </div>
+          <div class="doctor-card__info">
+            <h3>Dr. S. Deshmukh</h3>
+            <p>Obstetrics &amp; Gynaecology</p>
+            <span>Maternity, neonatal support, and women's healthcare.</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-tag">Voices from Baramati</span>
+        <h2>Trust built on response time,<br>clarity &amp; care quality</h2>
+      </div>
+      <div class="testi-wrap" data-animate>
+        <div class="testi-track" id="testiTrack">
+          <blockquote class="testi is-active">
+            <div class="testi__stars">★★★★★</div>
+            <p>"The WhatsApp booking was immediate and the consultation started right on time. The whole experience felt organized and premium. Highly recommend to all Baramati families."</p>
+            <footer>
+              <div class="testi__av">PJ</div>
+              <div><cite>Priya Jadhav</cite><span>Baramati</span></div>
+            </footer>
+          </blockquote>
+          <blockquote class="testi">
+            <div class="testi__stars">★★★★★</div>
+            <p>"Emergency support was fast, and the staff explained every step. It felt reassuring from the very first minute. The doctors are highly skilled and compassionate."</p>
+            <footer>
+              <div class="testi__av">RP</div>
+              <div><cite>Rahul Pawar</cite><span>Baramati</span></div>
+            </footer>
+          </blockquote>
+          <blockquote class="testi">
+            <div class="testi__stars">★★★★★</div>
+            <p>"Clean rooms, quick diagnostic reports, and polite communication on WhatsApp made follow-up care so much easier for our entire family."</p>
+            <footer>
+              <div class="testi__av">NM</div>
+              <div><cite>Neha More</cite><span>Baramati</span></div>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="testi-dots">
+          <button class="testi-dot is-active" aria-label="Testimonial 1"></button>
+          <button class="testi-dot" aria-label="Testimonial 2"></button>
+          <button class="testi-dot" aria-label="Testimonial 3"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="section booking-section" id="booking">
+    <div class="container">
+      <div class="booking-wrap">
+        <div class="booking-info" data-animate>
+          <span class="section-tag">WhatsApp Appointments</span>
+          <h2>Book your consultation<br>in seconds</h2>
+          <p>Fill the form and we'll prepare your WhatsApp message with all details for a fast, confirmed booking.</p>
+          <div class="booking-meta">
+            <div class="bm-item">
+              <div class="bm-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .33h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 15.92z"/></svg></div>
+              <div><strong>9307815563</strong><span>Primary WhatsApp booking</span></div>
+            </div>
+            <div class="bm-item">
+              <div class="bm-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <div><strong>Baramati, Maharashtra</strong><span>City &amp; surrounding regions</span></div>
+            </div>
+            <div class="bm-item">
+              <div class="bm-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+              <div><strong>24/7 Available</strong><span>Emergency always on</span></div>
+            </div>
+          </div>
+        </div>
+
+        <form class="booking-form" id="bookingForm" novalidate data-animate="reveal-right">
+          <h3>Schedule a Visit</h3>
+          <div class="form-row">
+            <label class="field">
+              <span>Patient Name <em>*</em></span>
+              <input type="text" name="patientName" placeholder="Full name" required autocomplete="name">
+            </label>
+            <label class="field">
+              <span>Phone Number <em>*</em></span>
+              <input type="tel" name="patientPhone" placeholder="Mobile number" required autocomplete="tel">
+            </label>
+          </div>
+          <div class="form-row">
+            <label class="field">
+              <span>Department <em>*</em></span>
+              <select name="department" required>
+                <option value="">Select department</option>
+                <option value="Emergency">Emergency &amp; Trauma</option>
+                <option value="Cardiology">Cardiology</option>
+                <option value="Orthopaedics">Orthopaedics</option>
+                <option value="Maternity">Maternity &amp; Neonatal</option>
+                <option value="Diagnostics">Diagnostics</option>
+                <option value="Preventive Health">Preventive Health</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Preferred Date <em>*</em></span>
+              <input type="date" id="visitDate" name="visitDate" required>
+            </label>
+          </div>
+          <label class="field field--full">
+            <span>Symptoms or Requirement</span>
+            <textarea name="patientConcern" rows="4" placeholder="Describe your issue briefly"></textarea>
+          </label>
+          <div class="form-actions">
+            <button class="btn btn--primary btn--lg" type="submit">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+              Send Booking on WhatsApp
+            </button>
+            <a class="btn btn--outline" href="https://wa.me/919307815563?text=Hello%20Baramati%20Signature%20Hospital" target="_blank" rel="noreferrer">Open WhatsApp Directly</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq-section">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-tag">Quick Answers</span>
+        <h2>Everything important<br>before you visit</h2>
+      </div>
+      <div class="faq-list">
+        <article class="faq-item" data-animate>
+          <button class="faq-q" aria-expanded="false">Do I need to call before visiting?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-a"><div class="faq-a__inner"><p>No. You can send your details on WhatsApp and receive confirmation with department guidance — no prior phone call needed.</p></div></div>
+        </article>
+        <article class="faq-item" data-animate data-delay="80">
+          <button class="faq-q" aria-expanded="false">Is emergency care available all day?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-a"><div class="faq-a__inner"><p>Yes. Baramati Signature Hospital provides 24/7 emergency support with a dedicated team for urgent medical and trauma cases at all hours.</p></div></div>
+        </article>
+        <article class="faq-item" data-animate data-delay="160">
+          <button class="faq-q" aria-expanded="false">Where is the hospital located?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-a"><div class="faq-a__inner"><p>We are located in Baramati, Maharashtra, accessible for patients from the city and surrounding regions. <a href="https://maps.google.com/?q=Baramati,Maharashtra" target="_blank" rel="noreferrer">Open in Google Maps →</a></p></div></div>
+        </article>
+        <article class="faq-item" data-animate data-delay="240">
+          <button class="faq-q" aria-expanded="false">Are diagnostic reports delivered quickly?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-a"><div class="faq-a__inner"><p>Yes. Our integrated diagnostics lab provides fast turnaround on blood work, imaging, and scans. Reports are shared digitally for faster follow-up.</p></div></div>
+        </article>
+        <article class="faq-item" data-animate data-delay="320">
+          <button class="faq-q" aria-expanded="false">What insurance is accepted?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-a"><div class="faq-a__inner"><p>We accept most major health insurance and government schemes. Please contact us on WhatsApp at 9307815563 for details about your specific coverage.</p></div></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="footer__inner">
+      <div class="footer__brand" data-animate>
+        <a class="brand brand--light" href="#home" aria-label="Baramati Signature Hospital">
+          <div class="brand__icon"><svg width="26" height="26" viewBox="0 0 28 28" fill="none"><rect width="28" height="28" rx="8" fill="rgba(255,255,255,0.15)"/><path d="M14 7v14M7 14h14" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg></div>
+          <div class="brand__text"><strong>Baramati Signature</strong><small>Multispeciality Hospital</small></div>
+        </a>
+        <p>Premium multispeciality care with modern systems, faster communication, and a calm healing environment for Baramati families.</p>
+        <a class="footer__wa-btn" href="https://wa.me/919307815563?text=Hello%20Baramati%20Signature%20Hospital" target="_blank" rel="noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          Message on WhatsApp
+        </a>
+      </div>
+      <div class="footer__nav" data-animate data-delay="100">
+        <h4>Navigation</h4>
+        <nav><a href="#about">About Us</a><a href="#services">Specialties</a><a href="#doctors">Our Doctors</a><a href="#booking">Book Appointment</a><a href="#contact">Contact</a></nav>
+      </div>
+      <div class="footer__contact" data-animate data-delay="200">
+        <h4>Contact</h4>
+        <a href="tel:+919307815563">+91 9307815563</a>
+        <a href="https://wa.me/919307815563" target="_blank" rel="noreferrer">WhatsApp Booking</a>
+        <a href="https://maps.google.com/?q=Baramati,Maharashtra" target="_blank" rel="noreferrer">Baramati, Maharashtra</a>
+        <a href="https://maps.google.com/?q=Baramati,Maharashtra" target="_blank" rel="noreferrer">Open in Google Maps →</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 Baramati Signature Hospital. All rights reserved.</p>
+      <p>Serving Baramati, Maharashtra &amp; surrounding regions</p>
+    </div>
+  </footer>
+
+  <!-- Floating WA FAB — hidden on hero, shown on scroll -->
+  <a class="wa-fab" id="waFab" href="https://wa.me/919307815563?text=Hello%20Baramati%20Signature%20Hospital%2C%20I%20want%20to%20book%20an%20appointment." target="_blank" rel="noreferrer" aria-label="Book on WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    <span>Book on WhatsApp</span>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
